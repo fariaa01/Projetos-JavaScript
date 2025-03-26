@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <form id="form-moedas">
+            <div class="container" id="container-form">
+                <label for="moeda">Selecione a moeda:</label>
+                <select id="moeda" name="moeda">
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                </select>
+
+                <div class="input2">
+                <label for="valor">Digite o valor:</label>
+                <input type="number" required id="valor" name="valor" placeholder="Digite o valor" min="0" step="0.01">
+                </div>
+                <label for="moeda-destino">Selecione a moeda de destino:</label>
+                <select id="moeda-destino" name="moeda-destino">
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+               </select>
+
+                <button type="submit" >Converter</button>
+
+                <p id="resultado"></p>
+            </div>
+        </form>
+        <script src="script.js"></script>
+</body>
+</html>

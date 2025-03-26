@@ -1,0 +1,54 @@
+/* Centraliza o conteúdo na tela */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilização do contêiner do cronômetro */
+  div {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilização do tempo */
+  a {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilização dos botões */
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    margin: 5px;
+  }
+  
+  button:first-of-type {
+    background-color: #5cb85c;
+  }
+  
+  button:last-of-type {
+    background-color: #d9534f;
+  }
+  
+  /* Efeito de hover nos botões */
+  button:hover {
+    opacity: 0.8;
+  }
+  

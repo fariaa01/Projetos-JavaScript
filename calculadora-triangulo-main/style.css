@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    position: relative; /* Para o resultado ficar fixo sem empurrar os inputs */
+    width: 300px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid #4CAF50;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    margin-left: 58px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 250px;
+}
+
+input:focus {
+    outline: 3px solid #4CAF50;
+}
+
+.botao button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    margin: 10px auto;
+    margin-top: 10px auto;
+    margin-bottom: 20px;
+    margin-left : 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao button:hover {
+    background-color: #388E3C;
+}
+
+
+.resultado {
+    height: 50px;
+    display: flex;
+    margin:  10px auto;
+    margin-left: 3px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -60px; 
+    margin-top: 20px;
+    width: 90%;
+}
+
+.paragrafo-resultado {
+    background-color: #2a7ab0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    min-width: 220px;
+    text-align: center;
+}

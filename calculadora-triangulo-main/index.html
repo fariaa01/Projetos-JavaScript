@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <form  ddata-aos="fade-down-left"  class="container" id="container">
+        <div class="triangle" data-aos="fade-down-left"></div>
+        <div class="inputs" data-aos="fade-down-left">
+            <input type="number" placeholder="Base (px)" required id="base">
+            <input type="number" placeholder="Altura (px)" required id="altura">
+        </div>
+        <div class="botao" data-aos="fade-down-left">
+            <button type="submit">Enviar</button> 
+        </div>
+        <div id="resultado" class="resultado" data-aos="fade-down-left"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

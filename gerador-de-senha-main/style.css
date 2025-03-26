@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #00796b;
+    display: block;
+}
+
+input[type="number"], input[type="range"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #00796b;
+    border-radius: 6px;
+    background-color: #f1f8e9;
+    font-size: 16px;
+    color: #00796b;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus, input[type="range"]:focus {
+    border-color: #004d40;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+button:active {
+    background-color: #00332d;
+}
+
+.password {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #00796b;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #004d40;
+    font-weight: bold;
+}
+
+#copy {
+    padding: 12px 25px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#copy:hover {
+    background-color: #388e3c;
+}
+
+#copy:active {
+    background-color: #2c6b2b;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="number"], input[type="range"] {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .password {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    #resultado {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="number"], input[type="range"] {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .password {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    #resultado {
+        font-size: 14px;
+    }
+}

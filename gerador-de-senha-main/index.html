@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="container">
+    <h1>Gerador de Senha</h1>
+    <label for="length">Comprimento da Senha:</label>
+    <input type="number" id="length" min="6" max="20" value="12">
+    <input type="range" id="slider" min="6" max="20" value="12">
+    <button id="generate" >Gerar Senha</button>
+    <p id="resultado"></p>
+    <button id="copy" style="display:none;">Copiar Senha</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
