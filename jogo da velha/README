@@ -1,22 +1,22 @@
-🕹️ Jogo da Velha
+🕹️ JOGO DA VELHA
 
 Este é um projeto clássico do Jogo da Velha, desenvolvido com HTML, CSS e JavaScript. O jogo permite que dois jogadores se enfrentem alternando as jogadas até que um vença ou ocorra um empate.
 
-⚙️ Funcionalidades:
+⚙️ FUNCIONALIDADES
 
-🎮 Modo para dois jogadores: Cada jogador faz sua jogada alternadamente.
-✔️ Verificação automática de vitória: O jogo identifica quando um jogador vence.
+✅ Modo para dois jogadores: Cada jogador faz sua jogada alternadamente.
+🏆 Verificação automática de vitória: O jogo identifica quando um jogador vence.
 🔄 Reinício rápido: Após o término da partida, o jogo pode ser reiniciado facilmente.
 
-💻 Tecnologias Utilizadas:
+💻 TECNOLOGIAS UTILIZADAS
 
-🌐 HTML5: Estrutura do jogo.
-🎨 CSS3: Estilização da interface.
-✨ JavaScript: Lógica para controle das jogadas e verificação do vencedor.
+🌐 HTML5 → Estrutura do jogo.
+🎨 CSS3 → Estilização da interface.
+✨ JavaScript → Lógica para controle das jogadas e verificação do vencedor.
 
-🚀 Como Funciona:
+🚀 COMO FUNCIONA
 
-Os jogadores se alternam para marcar X ou O no tabuleiro 3x3. O jogo verifica automaticamente as combinações vencedoras e anuncia o resultado. Se todas as casas forem preenchidas sem um vencedor, ocorre um empate.
+Os jogadores se alternam para marcar "X" ou "O" no tabuleiro 3x3. O jogo verifica automaticamente as combinações vencedoras e anuncia o resultado. Caso todas as casas sejam preenchidas sem um vencedor, ocorre um empate.
 
 🔗 LINK DO PROJETO ⬇⬇
 
